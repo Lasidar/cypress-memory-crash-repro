@@ -1,0 +1,24 @@
+node_modules
+.idea
+cypress/videos
+cypress/screenshots
+dist
+target
+.npm
+cache
+.DS_Store
+temp*
+
+# Git ignore rules for visual diff files
+cypress/snapshots/prod/actual
+cypress/snapshots/sit/actual
+cypress/snapshots/uat/actual
+cypress/snapshots/prod/diff
+cypress/snapshots/sit/diff
+cypress/snapshots/uat/diff
+cypress/snapshots/prod/base/**/*.png
+!cypress/snapshots/prod/base/**/*-base.png
+cypress/snapshots/sit/base/**/*.png
+!cypress/snapshots/sit/base/**/*-base.png
+cypress/snapshots/uat/base/**/*.png
+!cypress/snapshots/uat/base/**/*-base.png
