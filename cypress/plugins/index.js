@@ -13,13 +13,18 @@ module.exports = (on, config) => {
   // eslint-disable-next-line @typescript-eslint/default-param-last
   on("before:browser:launch", (browser = {}, launchOptions) => {
     if (browser.family === "chromium") {
-      launchOptions.args.push("--disable-dev-shm-usage");
-      return launchOptions;
-    } else if (browser.family === "firefox") {
-      launchOptions.preferences["pdfjs.enabledCache.state"] = false;
-      launchOptions.preferences["pdfjs.migrationVersion"] = 2;
+    //   launchOptions.args.push("--disable-dev-shm-usage");
+      launchOptions.args.push('--enable-precise-memory-info')
       return launchOptions;
     }
+  });
+
+  // in plugins file
+  on("task", {
+    log(message) {
+      console.log(`      INFO: ${message}`);
+      return null;
+    },
   });
 
   return config;

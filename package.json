@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Repro example for cypress and chrome memory crash",
   "main": "index.js",
-  "scripts": {
-    "open": "npx cypress open --e2e --browser chrome",
-    "test": "docker run -it --rm -v $INIT_CWD/cypress:/e2e/cypress -v $INIT_CWD/cypress.config.ts:/e2e/cypress.config.ts -v $INIT_CWD/package.json:/e2e/package.json -v $INIT_CWD/package-lock.json:/e2e/package-lock.json -v $INIT_CWD/tsconfig.json:/e2e/tsconfig.json -w /e2e cypress/browsers:node-20.9.0-chrome-118.0.5993.88-1-ff-118.0.2-edge-118.0.2088.46-1 -- --browser firefox --spec \"cypress/tests/*.feature\""
-  },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "cypress/tests",
@@ -25,6 +21,7 @@
     "jStat": "^1.8.6",
     "jwt-simple": "^0.5.6",
     "lodash": "^4.17.21",
+    "malloc": "^1.1.0",
     "moment": "^2.29.3",
     "numeral": "^2.0.6",
     "numeric": "^1.2.6",

@@ -1,12 +1,13 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  redirectionLimit: 1000,
   env: {
     failSilently: false,
   },
   numTestsKeptInMemory: 0,
   retries: {
-    runMode: 3,
+    runMode: 2,
     openMode: 0,
   },
   viewportWidth: 1024,
