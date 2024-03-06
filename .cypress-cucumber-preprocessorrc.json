@@ -1,0 +1,6 @@
+{
+    "stepDefinitions": [
+      "cypress/tests/[filepath]/**/*.{js,ts}",
+      "cypress/tests/common/**/*.{js,ts}"
+    ]
+  }

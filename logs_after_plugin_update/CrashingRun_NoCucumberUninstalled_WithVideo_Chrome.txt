@@ -1,0 +1,137 @@
+
+DevTools listening on ws://127.0.0.1:60637/devtools/browser/55a16ff0-de5e-409d-91b8-9e8db2cffe65
+Missing baseUrl in compilerOptions. tsconfig-paths will be skipped
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.6                                                                         │
+  │ Browser:        Chrome 122 (headless)                                                          │
+  │ Node Version:   v18.18.2 (/Users/014313/.nvm/versions/node/v18.18.2/bin/node)                  │
+  │ Specs:          1 found (YahooItemsFailNoCucumber.ts)                                          │
+  │ Searched:       cypress/tests/YahooItemsFailNoCucumber.ts                                      │
+  │ Experiments:    experimentalMemoryManagement=true,experimentalModifyObstructiveThirdPartyCode… │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  YahooItemsFailNoCucumber.ts                                                     (1 of 1)
+
+
+  Verify news items on Yahoo are visible
+      INFO: usedJSHeapSize: 81.9MB, 84.8% of current max 96.6MB, 2.0% of absolute max 4095.8MB
+      INFO: usedJSHeapSize: 135.6MB, 89.5% of current max 151.5MB, 3.3% of absolute max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 212.8MB, 88.1% of current max 241.5MB, 5.2% of absolute max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 244.2MB, 80.5% of current max 303.5MB, 6.0% of absolute max 4095.8MB
+    1) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 322.7MB, 90.3% of current max 357.3MB, 7.9% of absolute max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail
+      INFO: usedJSHeapSize: 358.9MB, 93.5% of current max 383.7MB, 8.8% of absolute max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail
+      INFO: usedJSHeapSize: 430.3MB, 91.4% of current max 470.8MB, 10.5% of absolute max 4095.8MB
+    2) Verify that items under category Entertainment are visible, intentionally will fail
+      INFO: usedJSHeapSize: 490.4MB, 92.4% of current max 530.5MB, 12.0% of absolute max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 566.5MB, 93.7% of current max 604.3MB, 13.8% of absolute max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 633.4MB, 92.8% of current max 682.5MB, 15.5% of absolute max 4095.8MB
+    3) Verify that items under category News are visible, intentionally will fail
+      INFO: usedJSHeapSize: 698.3MB, 93.2% of current max 749.2MB, 17.0% of absolute max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail
+      INFO: usedJSHeapSize: 767.8MB, 93.9% of current max 817.4MB, 18.7% of absolute max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail
+      INFO: usedJSHeapSize: 833.2MB, 93.4% of current max 891.6MB, 20.3% of absolute max 4095.8MB
+
+We detected that the Chrome Renderer process just crashed.
+
+We have failed the current spec but will continue running the next spec.
+
+This can happen for a number of different reasons.
+
+If you're running lots of tests on a memory intense application.
+  - Try increasing the CPU/memory on the machine you're running on.
+  - Try enabling experimentalMemoryManagement in your config file.
+  - Try lowering numTestsKeptInMemory in your config file during 'cypress open'.
+
+You can learn more here:
+
+https://on.cypress.io/renderer-process-crashed
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      0                                                                                │
+  │ Failing:      5                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      10                                                                               │
+  │ Screenshots:  11                                                                               │
+  │ Video:        true                                                                             │
+  │ Duration:     18 minutes, 0 seconds                                                            │
+  │ Spec Ran:     YahooItemsFailNoCucumber.ts                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed).png                                      
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed) (attempt 2).png                          
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed) (attempt 3).png                          
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry Entertainment are visible, intentionally will fail (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry Entertainment are visible, intentionally will fail (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry Entertainment are visible, intentionally will fail (failed) (attempt 3).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed) (1).png                                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed) (attempt 2) (1).png                      
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry News are visible, intentionally will fail (failed) (attempt 3) (1).png                      
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry Entertainment are visible, intentionally will fail (failed) (1).png                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFailNoCucu     (1280x635)
+     mber.ts/Verify news items on Yahoo are visible -- Verify that items under catego               
+     ry Entertainment are visible, intentionally will fail (failed) (attempt 2) (1).p               
+     ng                                                                                             
+
+
+  (Video)
+
+  -  Started compressing: Compressing to 20 CRF                                                     
+  -  Finished compressing: 34 seconds                                                
+    Compression progress:  100%
+
+  -  Video output: /Users/014313/work/cypress-memory-crash/cypress/videos/YahooItemsFailNoCucumber.ts.mp4
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  YahooItemsFailNoCucumber.ts              18:00       15        -        5        -       10 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     18:00       15        -        5        -       10  
+

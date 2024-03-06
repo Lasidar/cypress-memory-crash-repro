@@ -1,4 +1,4 @@
-import { When, Then } from "cypress-cucumber-preprocessor/steps";
+import { When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 When("I navigate to yahoo", () => {
     cy.visit("https://ca.yahoo.com/");

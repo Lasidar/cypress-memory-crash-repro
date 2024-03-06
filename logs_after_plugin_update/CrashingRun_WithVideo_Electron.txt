@@ -1,0 +1,149 @@
+
+DevTools listening on ws://127.0.0.1:63124/devtools/browser/3f551675-63a2-41e9-b0f0-9b1e5b442bcc
+Missing baseUrl in compilerOptions. tsconfig-paths will be skipped
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.6                                                                         │
+  │ Browser:        Electron 118 (headless)                                                        │
+  │ Node Version:   v18.18.2 (/Users/014313/.nvm/versions/node/v18.18.2/bin/node)                  │
+  │ Specs:          1 found (YahooItemsFail.feature)                                               │
+  │ Searched:       cypress/tests/YahooItemsFail.feature                                           │
+  │ Experiments:    experimentalMemoryManagement=true,experimentalModifyObstructiveThirdPartyCode… │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  YahooItemsFail.feature                                                          (1 of 1)
+Warning: The following browser launch options were provided but are not supported by electron
+
+ - args
+
+
+  Verify news items on Yahoo are visible
+[54613:0306/143131.328796:ERROR:system_services.cc(34)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 200.8MB, 91.3% of allowed max 220.0MB, 4.9% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 274.6MB, 91.0% of allowed max 301.9MB, 6.7% of allowed max 4095.8MB
+    1) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 373.3MB, 91.6% of allowed max 407.4MB, 9.1% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 420.1MB, 91.7% of allowed max 458.2MB, 10.3% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 494.2MB, 91.7% of allowed max 538.7MB, 12.1% of allowed max 4095.8MB
+    2) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 565.4MB, 92.6% of allowed max 610.8MB, 13.8% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 655.6MB, 92.7% of allowed max 707.5MB, 16.0% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 711.4MB, 93.2% of allowed max 763.3MB, 17.4% of allowed max 4095.8MB
+    3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 782.8MB, 92.9% of allowed max 843.1MB, 19.1% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+      INFO: usedJSHeapSize: 840.8MB, 92.9% of allowed max 905.0MB, 20.5% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+      INFO: usedJSHeapSize: 909.4MB, 92.7% of allowed max 980.8MB, 22.2% of allowed max 4095.8MB
+
+<--- Last few GCs --->
+[54118:0x1780a0000]        1 ms: Mark-Compact (reduce) 0.2 (1.2) -> 0.2 (1.2) MB, 0.38 / 0.00 ms  (average mu = 0.591, current mu = 0.591) CppHeap allocation failure; GC in old space requested
+
+
+<--- JS stacktrace --->
+
+[54118:0306/144952.359558:ERROR:v8_initializer.cc(752)] V8 process OOM (Oilpan: Normal allocation.).
+
+We detected that the Electron Renderer process just crashed.
+
+We have failed the current spec but will continue running the next spec.
+
+This can happen for a number of different reasons.
+
+If you're running lots of tests on a memory intense application.
+  - Try increasing the CPU/memory on the machine you're running on.
+  - Try enabling experimentalMemoryManagement in your config file.
+  - Try lowering numTestsKeptInMemory in your config file during 'cypress open'.
+
+You can learn more here:
+
+https://on.cypress.io/renderer-process-crashed
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      0                                                                                │
+  │ Failing:      5                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      10                                                                               │
+  │ Screenshots:  11                                                                               │
+  │ Video:        true                                                                             │
+  │ Duration:     18 minutes, 42 seconds                                                           │
+  │ Spec Ran:     YahooItemsFail.feature                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x720)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed) (attempt                
+     2).png                                                                                         
+
+
+  (Video)
+
+  -  Started compressing: Compressing to 20 CRF                                                     
+  -  Finished compressing: 39 seconds                                                
+    Compression progress:  100%
+
+  -  Video output: /Users/014313/work/cypress-memory-crash/cypress/videos/YahooItemsFail.feature.mp4
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  YahooItemsFail.feature                   18:42       15        -        5        -       10 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     18:42       15        -        5        -       10  
+

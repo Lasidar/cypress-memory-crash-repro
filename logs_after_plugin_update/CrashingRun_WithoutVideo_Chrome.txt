@@ -1,0 +1,304 @@
+
+DevTools listening on ws://127.0.0.1:58881/devtools/browser/121a3116-a469-420e-80e0-3e95e886c326
+Missing baseUrl in compilerOptions. tsconfig-paths will be skipped
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.6                                                                         │
+  │ Browser:        Chrome 122 (headless)                                                          │
+  │ Node Version:   v18.18.2 (/Users/014313/.nvm/versions/node/v18.18.2/bin/node)                  │
+  │ Specs:          1 found (YahooItemsFail.feature)                                               │
+  │ Searched:       cypress/tests/YahooItemsFail.feature                                           │
+  │ Experiments:    experimentalMemoryManagement=true,experimentalModifyObstructiveThirdPartyCode… │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  YahooItemsFail.feature                                                          (1 of 1)
+
+
+  Verify news items on Yahoo are visible
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 190.0MB, 87.2% of allowed max 217.9MB, 4.6% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 290.0MB, 90.6% of allowed max 320.0MB, 7.1% of allowed max 4095.8MB
+    1) Verify that items under category News are visible, intentionally will fail (example #1)
+      INFO: usedJSHeapSize: 387.1MB, 92.1% of allowed max 420.3MB, 9.5% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 432.7MB, 91.3% of allowed max 474.0MB, 10.6% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 517.5MB, 92.8% of allowed max 557.9MB, 12.6% of allowed max 4095.8MB
+    2) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+      INFO: usedJSHeapSize: 596.1MB, 92.3% of allowed max 645.6MB, 14.6% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 828.3MB, 94.3% of allowed max 878.6MB, 20.2% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 911.6MB, 94.1% of allowed max 968.4MB, 22.3% of allowed max 4095.8MB
+    3) Verify that items under category News are visible, intentionally will fail (example #3)
+      INFO: usedJSHeapSize: 1061.2MB, 94.2% of allowed max 1126.7MB, 25.9% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+      INFO: usedJSHeapSize: 1019.1MB, 93.9% of allowed max 1085.7MB, 24.9% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+      INFO: usedJSHeapSize: 1118.9MB, 94.2% of allowed max 1187.9MB, 27.3% of allowed max 4095.8MB
+    4) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+      INFO: usedJSHeapSize: 1206.5MB, 94.3% of allowed max 1280.1MB, 29.5% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #5)
+      INFO: usedJSHeapSize: 1314.0MB, 94.3% of allowed max 1393.4MB, 32.1% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #5)
+      INFO: usedJSHeapSize: 1429.5MB, 94.5% of allowed max 1512.1MB, 34.9% of allowed max 4095.8MB
+    5) Verify that items under category News are visible, intentionally will fail (example #5)
+      INFO: usedJSHeapSize: 1505.2MB, 94.1% of allowed max 1598.8MB, 36.8% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+      INFO: usedJSHeapSize: 1513.3MB, 94.1% of allowed max 1608.7MB, 36.9% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+      INFO: usedJSHeapSize: 1602.5MB, 94.0% of allowed max 1705.7MB, 39.1% of allowed max 4095.8MB
+    6) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+      INFO: usedJSHeapSize: 1691.9MB, 94.1% of allowed max 1798.3MB, 41.3% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #7)
+      INFO: usedJSHeapSize: 1845.6MB, 94.4% of allowed max 1954.4MB, 45.1% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #7)
+      INFO: usedJSHeapSize: 1955.8MB, 94.2% of allowed max 2076.3MB, 47.8% of allowed max 4095.8MB
+    7) Verify that items under category News are visible, intentionally will fail (example #7)
+      INFO: usedJSHeapSize: 2032.3MB, 94.4% of allowed max 2151.7MB, 49.6% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+      INFO: usedJSHeapSize: 2014.4MB, 94.0% of allowed max 2142.3MB, 49.2% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+      INFO: usedJSHeapSize: 2114.3MB, 94.1% of allowed max 2247.6MB, 51.6% of allowed max 4095.8MB
+    8) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+      INFO: usedJSHeapSize: 2203.1MB, 94.1% of allowed max 2341.9MB, 53.8% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #9)
+      INFO: usedJSHeapSize: 2358.7MB, 94.3% of allowed max 2500.1MB, 57.6% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #9)
+      INFO: usedJSHeapSize: 2444.2MB, 94.3% of allowed max 2592.9MB, 59.7% of allowed max 4095.8MB
+    9) Verify that items under category News are visible, intentionally will fail (example #9)
+      INFO: usedJSHeapSize: 2523.3MB, 94.3% of allowed max 2675.8MB, 61.6% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+      INFO: usedJSHeapSize: 2538.5MB, 94.3% of allowed max 2692.0MB, 62.0% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+      INFO: usedJSHeapSize: 2623.8MB, 94.2% of allowed max 2784.8MB, 64.1% of allowed max 4095.8MB
+    10) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+      INFO: usedJSHeapSize: 2713.9MB, 94.2% of allowed max 2881.4MB, 66.3% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #11)
+      INFO: usedJSHeapSize: 2860.7MB, 94.3% of allowed max 3033.8MB, 69.8% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #11)
+      INFO: usedJSHeapSize: 2954.7MB, 94.4% of allowed max 3130.8MB, 72.1% of allowed max 4095.8MB
+    11) Verify that items under category News are visible, intentionally will fail (example #11)
+      INFO: usedJSHeapSize: 3031.9MB, 94.4% of allowed max 3212.4MB, 74.0% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+      INFO: usedJSHeapSize: 3033.9MB, 94.2% of allowed max 3221.1MB, 74.1% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+      INFO: usedJSHeapSize: 3135.2MB, 94.3% of allowed max 3323.4MB, 76.5% of allowed max 4095.8MB
+    12) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+      INFO: usedJSHeapSize: 3225.3MB, 94.4% of allowed max 3417.3MB, 78.7% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #13)
+      INFO: usedJSHeapSize: 3366.2MB, 94.4% of allowed max 3565.1MB, 82.2% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #13)
+      INFO: usedJSHeapSize: 3464.5MB, 94.3% of allowed max 3672.0MB, 84.6% of allowed max 4095.8MB
+    13) Verify that items under category News are visible, intentionally will fail (example #13)
+      INFO: usedJSHeapSize: 3569.8MB, 94.5% of allowed max 3776.0MB, 87.2% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+      INFO: usedJSHeapSize: 3537.1MB, 94.3% of allowed max 3752.2MB, 86.4% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+      INFO: usedJSHeapSize: 3620.6MB, 94.3% of allowed max 3838.7MB, 88.4% of allowed max 4095.8MB
+    14) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+      INFO: usedJSHeapSize: 3692.8MB, 94.3% of allowed max 3917.1MB, 90.2% of allowed max 4095.8MB
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #15)
+      INFO: usedJSHeapSize: 3837.6MB, 94.4% of allowed max 4066.2MB, 93.7% of allowed max 4095.8MB
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #15)
+      INFO: usedJSHeapSize: 3942.6MB, 94.5% of allowed max 4172.6MB, 96.3% of allowed max 4095.8MB
+
+We detected that the Chrome Renderer process just crashed.
+
+We have failed the current spec but will continue running the next spec.
+
+This can happen for a number of different reasons.
+
+If you're running lots of tests on a memory intense application.
+  - Try increasing the CPU/memory on the machine you're running on.
+  - Try enabling experimentalMemoryManagement in your config file.
+  - Try lowering numTestsKeptInMemory in your config file during 'cypress open'.
+
+You can learn more here:
+
+https://on.cypress.io/renderer-process-crashed
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      0                                                                                │
+  │ Failing:      16                                                                               │
+  │ Pending:      0                                                                                │
+  │ Skipped:      -1                                                                               │
+  │ Screenshots:  44                                                                               │
+  │ Video:        false                                                                            │
+  │ Duration:     32 minutes, 4 seconds                                                            │
+  │ Spec Ran:     YahooItemsFail.feature                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed) (attempt 3).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed) (attempt 3).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #15) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x635)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #15) (failed) (attempt 2).png                 
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  YahooItemsFail.feature                   32:04       15        -       16        -       -1 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     32:04       15        -       16        -       -1  
+
