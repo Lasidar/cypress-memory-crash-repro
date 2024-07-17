@@ -1,0 +1,709 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.13.0                                                                        │
+  │ Browser:        Firefox 127 (headless)                                                         │
+  │ Node Version:   v18.18.2 (/Users/014313/.nvm/versions/node/v18.18.2/bin/node)                  │
+  │ Specs:          1 found (YahooItemsFail.feature)                                               │
+  │ Searched:       cypress/tests/YahooItemsFail.feature                                           │
+  │ Experiments:    experimentalMemoryManagement=true,experimentalModifyObstructiveThirdPartyCode… │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  YahooItemsFail.feature                                                          (1 of 1)
+
+
+  Verify news items on Yahoo are visible
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #1)
+    1) Verify that items under category News are visible, intentionally will fail (example #1)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+    2) Verify that items under category Entertainment are visible, intentionally will fail (example #2)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #3)
+    3) Verify that items under category News are visible, intentionally will fail (example #3)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+    4) Verify that items under category Entertainment are visible, intentionally will fail (example #4)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #5)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #5)
+    5) Verify that items under category News are visible, intentionally will fail (example #5)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+    6) Verify that items under category Entertainment are visible, intentionally will fail (example #6)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #7)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #7)
+    7) Verify that items under category News are visible, intentionally will fail (example #7)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+    8) Verify that items under category Entertainment are visible, intentionally will fail (example #8)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #9)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #9)
+    9) Verify that items under category News are visible, intentionally will fail (example #9)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+    10) Verify that items under category Entertainment are visible, intentionally will fail (example #10)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #11)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #11)
+    11) Verify that items under category News are visible, intentionally will fail (example #11)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+    12) Verify that items under category Entertainment are visible, intentionally will fail (example #12)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #13)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #13)
+    13) Verify that items under category News are visible, intentionally will fail (example #13)
+    (Attempt 1 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+    (Attempt 2 of 3) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+    14) Verify that items under category Entertainment are visible, intentionally will fail (example #14)
+    (Attempt 1 of 3) Verify that items under category News are visible, intentionally will fail (example #15)
+    (Attempt 2 of 3) Verify that items under category News are visible, intentionally will fail (example #15)
+    15) Verify that items under category News are visible, intentionally will fail (example #15)
+
+
+  0 passing (59m)
+  15 failing
+
+  1) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #1):
+     CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `Users/014313/work/cypress-memory-crash/cypress.config.ts` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+  at timedOutWaitingForPageLoad (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:130539:64)
+  at __webpack_modules__</__WEBPACK_DEFAULT_EXPORT__/visit (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:131524:16)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/catchFilter (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4186:41)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise0 (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1621:10)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromises (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1697:18)
+  at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2407:12)
+  at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+  at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+  at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+  From Your Spec Code:
+      at [3] (cypress/tests/common/yahoo.ts:4:7)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  2) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #2):
+     CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `Users/014313/work/cypress-memory-crash/cypress.config.ts` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+  at timedOutWaitingForPageLoad (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:130539:64)
+  at __webpack_modules__</__WEBPACK_DEFAULT_EXPORT__/visit (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:131524:16)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/catchFilter (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4186:41)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise0 (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1621:10)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromises (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1697:18)
+  at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2407:12)
+  at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+  at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+  at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+  From Your Spec Code:
+      at [3] (cypress/tests/common/yahoo.ts:4:7)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  3) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #3):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  4) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #4):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  5) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #5):
+     CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `Users/014313/work/cypress-memory-crash/cypress.config.ts` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+  at timedOutWaitingForPageLoad (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:130539:64)
+  at __webpack_modules__</__WEBPACK_DEFAULT_EXPORT__/visit (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:131524:16)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/catchFilter (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4186:41)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise0 (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1621:10)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromises (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1697:18)
+  at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2407:12)
+  at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+  at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+  at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+  From Your Spec Code:
+      at [3] (cypress/tests/common/yahoo.ts:4:7)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  6) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #6):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  7) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #7):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  8) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #8):
+     CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `Users/014313/work/cypress-memory-crash/cypress.config.ts` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+  at timedOutWaitingForPageLoad (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:130539:64)
+  at __webpack_modules__</__WEBPACK_DEFAULT_EXPORT__/visit (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:131524:16)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/catchFilter (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4186:41)
+  at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromise0 (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1621:10)
+  at __webpack_modules__</module.exports/Promise.prototype._settlePromises (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1697:18)
+  at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2407:12)
+  at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+  at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+  at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+  From Your Spec Code:
+      at [3] (cypress/tests/common/yahoo.ts:4:7)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  9) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #9):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  10) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #10):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  11) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #11):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  12) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #12):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  13) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #13):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  14) Verify news items on Yahoo are visible
+       Verify that items under category Entertainment are visible, intentionally will fail (example #14):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+  15) Verify news items on Yahoo are visible
+       Verify that items under category News are visible, intentionally will fail (example #15):
+     AssertionError: expected false to equal true
+      at [2] (cypress/tests/YahooItemsFail/YahooItemsFail.ts:20:21)
+      at runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:160:0)
+      at fn (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:442:0)
+      at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/cypress.js:51:0)
+      at createPickle/</ (node_modules/@badeball/cypress-cucumber-preprocessor/dist/browser-runtime.js:438:0)
+      at getRet (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118826:20)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.try (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:4315:29)
+      at thenFn (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:118837:60)
+      at then (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:119088:21)
+      at wrapped (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:137994:19)
+      at __webpack_modules__</runCommand (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:143915:15)
+      at tryCatcher (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1807:23)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1519:31)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1576:18)
+      at __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:1613:10)
+      at _drainQueueStep (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2411:12)
+      at _drainQueue (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2400:24)
+      at __webpack_modules__</Async.prototype._drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2416:16)
+      at __webpack_modules__</Async/this.drainQueues (https://ca.yahoo.com/__cypress/runner/cypress_runner.js:2286:14)
+
+
+
+Warning: We failed capturing this video.
+
+This error will not affect or change the exit code.
+
+Error: Insufficient frames captured to create video.
+    at ChildProcess.<anonymous> (<embedded>:1055:16306)
+    at ChildProcess.emit (node:events:514:28)
+    at Process.onexit (node:internal/child_process:291:12)
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      0                                                                                │
+  │ Failing:      15                                                                               │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  45                                                                               │
+  │ Video:        false                                                                            │
+  │ Duration:     58 minutes, 52 seconds                                                           │
+  │ Spec Ran:     YahooItemsFail.feature                                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #1) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #2) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #3) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #4) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #5) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #6) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #7) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed).png                     
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed) (attempt                
+     2).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #8) (failed) (attempt                
+     3).png                                                                                         
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed).png                              
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed) (attempt 2).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #9) (failed) (attempt 3).png                  
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #10) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #11) (failed) (attempt 3).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #12) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #13) (failed) (attempt 3).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed).png                    
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed) (attempt               
+      2).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category En               
+     tertainment are visible, intentionally will fail (example #14) (failed) (attempt               
+      3).png                                                                                        
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #15) (failed).png                             
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #15) (failed) (attempt 2).png                 
+  -  /Users/014313/work/cypress-memory-crash/cypress/screenshots/YahooItemsFail.featu     (1280x672)
+     re/Verify news items on Yahoo are visible -- Verify that items under category Ne               
+     ws are visible, intentionally will fail (example #15) (failed) (attempt 3).png                 
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  YahooItemsFail.feature                   58:52       15        -       15        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     58:52       15        -       15        -        -  
+
